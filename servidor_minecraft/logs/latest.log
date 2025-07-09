@@ -1,33 +1,29 @@
-[15:13:32] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.7+6-Ubuntu-0ubuntu124.04; Ubuntu null) on Linux 6.8.0-1027-azure (amd64)
-[15:13:32] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.7-17-main@b4466ec (2025-07-06T18:59:07Z) for Minecraft 1.21.7
-[15:13:32] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[15:13:36] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Remapping plugin 'plugins/KBloodMoon-1.3.jar'...
-[15:13:36] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Remapping plugin 'plugins/worldedit-bukkit-7.3.15-beta-02.jar'...
-[15:13:38] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Done remapping plugin 'plugins/KBloodMoon-1.3.jar' in 1309ms.
-[15:13:39] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Done remapping plugin 'plugins/worldedit-bukkit-7.3.15-beta-02.jar' in 2943ms.
-[15:13:40] [ServerMain/INFO]: [PluginInitializerManager] Initialized 16 plugins
-[15:13:40] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (16):
+[19:56:51] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.7+6-Ubuntu-0ubuntu124.04; Ubuntu null) on Linux 6.8.0-1027-azure (amd64)
+[19:56:51] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.7-17-main@b4466ec (2025-07-06T18:59:07Z) for Minecraft 1.21.7
+[19:56:51] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[19:56:52] [ServerMain/INFO]: [PluginInitializerManager] Initialized 16 plugins
+[19:56:52] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (16):
  - BetterRevive (0.9.1-BETA), Essentials (2.21.2-dev+24-3563b41), EssentialsChat (2.21.2-dev+24-3563b41), EssentialsSpawn (2.21.2-dev+24-3563b41), Geyser-Spigot (2.8.2-SNAPSHOT), HealthBar (1.8.1), ItemFrameDupePlugin (1.0), KBloodMoon (1.3), NBTAPI (2.15.1), PlugManX (2.4.1), ProtocolLib (5.3.0), ViaBackwards (5.4.1), ViaRewind (4.0.9-SNAPSHOT), ViaVersion (5.4.0), WorldEdit (7.3.15-beta-02+9a50ff6), floodgate (2.2.4-SNAPSHOT (b116-0e3163c))
-[15:13:45] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[15:13:47] [ServerMain/INFO]: Loaded 1407 recipes
-[15:13:47] [ServerMain/INFO]: Loaded 1520 advancements
-[15:13:47] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[15:13:48] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 385.5ms
-[15:13:48] [Server thread/INFO]: Starting minecraft server version 1.21.7
-[15:13:48] [Server thread/INFO]: Loading properties
-[15:13:48] [Server thread/INFO]: This server is running Paper version 1.21.7-17-main@b4466ec (2025-07-06T18:59:07Z) (Implementing API version 1.21.7-R0.1-SNAPSHOT)
-[15:13:48] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[15:13:48] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[15:13:48] [Server thread/INFO]: Using 4 threads for Netty based IO
-[15:13:49] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[15:13:49] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[15:13:49] [Server thread/INFO]: Default game type: SURVIVAL
-[15:13:49] [Server thread/INFO]: Generating keypair
-[15:13:49] [Server thread/INFO]: Starting Minecraft server on *:25565
-[15:13:49] [Server thread/INFO]: Using epoll channel type
-[15:13:49] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[15:13:49] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[15:13:50] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load plugin 'ItemFrameDupePlugin.jar' in folder 'plugins/.paper-remapped'
+[19:56:57] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[19:56:59] [ServerMain/INFO]: Loaded 1407 recipes
+[19:56:59] [ServerMain/INFO]: Loaded 1520 advancements
+[19:56:59] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[19:57:00] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 459.0ms
+[19:57:00] [Server thread/INFO]: Starting minecraft server version 1.21.7
+[19:57:00] [Server thread/INFO]: Loading properties
+[19:57:00] [Server thread/INFO]: This server is running Paper version 1.21.7-17-main@b4466ec (2025-07-06T18:59:07Z) (Implementing API version 1.21.7-R0.1-SNAPSHOT)
+[19:57:00] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[19:57:00] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[19:57:00] [Server thread/INFO]: Using 4 threads for Netty based IO
+[19:57:01] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[19:57:01] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[19:57:02] [Server thread/INFO]: Default game type: SURVIVAL
+[19:57:02] [Server thread/INFO]: Generating keypair
+[19:57:02] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:57:02] [Server thread/INFO]: Using epoll channel type
+[19:57:02] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[19:57:02] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[19:57:04] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load plugin 'ItemFrameDupePlugin.jar' in folder 'plugins/.paper-remapped'
 org.bukkit.plugin.InvalidPluginException: java.lang.UnsupportedClassVersionError: ER/Ericson/ItemFrameDupePlugin has been compiled by a more recent version of the Java Runtime (class file version 68.0), this version of the Java Runtime only recognizes class file versions up to 65.0
 	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:129) ~[paper-1.21.7.jar:1.21.7-17-b4466ec]
 	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:35) ~[paper-1.21.7.jar:1.21.7-17-b4466ec]
@@ -54,13 +50,13 @@ Caused by: java.lang.UnsupportedClassVersionError: ER/Ericson/ItemFrameDupePlugi
 	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:79) ~[paper-api-1.21.7-R0.1-SNAPSHOT.jar:?]
 	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:125) ~[paper-1.21.7.jar:1.21.7-17-b4466ec]
 	... 9 more
-[15:13:50] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.4.0
-[15:13:50] [Server thread/INFO]: [ViaVersion] ViaVersion 5.4.0 is now loaded. Registering protocol transformers and injecting...
-[15:13:50] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[15:13:51] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[15:13:51] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[15:13:51] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[15:13:52] [Server thread/ERROR]: [ViaVersion] Error initializing plugin 'ViaVersion-5.4.0.jar' in folder 'plugins' (Is it up to date?)
+[19:57:04] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.4.0
+[19:57:04] [Server thread/INFO]: [ViaVersion] ViaVersion 5.4.0 is now loaded. Registering protocol transformers and injecting...
+[19:57:04] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[19:57:04] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[19:57:05] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[19:57:05] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[19:57:05] [Server thread/ERROR]: [ViaVersion] Error initializing plugin 'ViaVersion-5.4.0.jar' in folder 'plugins' (Is it up to date?)
 java.lang.NoClassDefFoundError: com/viaversion/viaversion/protocols/v1_21_6to1_21_7/Protocol1_21_6To1_21_7
 	at ViaBackwards-5.4.1.jar/com.viaversion.viabackwards.protocol.v1_21_7to1_21_6.Protocol1_21_7To1_21_6.<clinit>(Protocol1_21_7To1_21_6.java:53) ~[ViaBackwards-5.4.1.jar:?]
 	at ViaBackwards-5.4.1.jar/com.viaversion.viabackwards.api.ViaBackwardsPlatform.init(ViaBackwardsPlatform.java:156) ~[ViaBackwards-5.4.1.jar:?]
@@ -81,10 +77,10 @@ Caused by: java.lang.ClassNotFoundException: com.viaversion.viaversion.protocols
 	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:172) ~[paper-api-1.21.7-R0.1-SNAPSHOT.jar:?]
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
 	... 14 more
-[15:13:52] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.2-dev+24-3563b41
-[15:13:52] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.3.0
-[15:13:52] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.21.7) has not yet been tested! Proceed with caution.
-[15:13:52] [Server thread/ERROR]:   [ProtocolLib] INTERNAL ERROR: Cannot load ProtocolLib.
+[19:57:05] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.2-dev+24-3563b41
+[19:57:05] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.3.0
+[19:57:05] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.21.7) has not yet been tested! Proceed with caution.
+[19:57:05] [Server thread/ERROR]:   [ProtocolLib] INTERNAL ERROR: Cannot load ProtocolLib.
   If this problem hasn't already been reported, please open a ticket
   at https://github.com/dmulloy2/ProtocolLib/issues with the following data:
   Stack Trace:
@@ -112,32 +108,32 @@ Caused by: java.lang.ClassNotFoundException: com.viaversion.viaversion.protocols
   Parameters: 
     [NULL]
   Sender:
-    com.comphenix.protocol.ProtocolLib@1a4609ad[
+    com.comphenix.protocol.ProtocolLib@5eccfe7d[
       statistics=<null>
       packetTask=<null>
       tickCounter=0
       configExpectedMod=-1
-      updater=com.comphenix.protocol.updater.SpigotUpdater@4b8b9089
+      updater=com.comphenix.protocol.updater.SpigotUpdater@2e19dd19
       redirectHandler=<null>
-      scheduler=com.comphenix.protocol.scheduler.DefaultScheduler@43657451
+      scheduler=com.comphenix.protocol.scheduler.DefaultScheduler@1b4d29a6
       commandProtocol=<null>
       commandPacket=<null>
       commandFilter=<null>
       packetLogging=<null>
       skipDisable=false
       isEnabled=false
-      loader=io.papermc.paper.plugin.manager.DummyBukkitPluginLoader@3e3400c5
+      loader=io.papermc.paper.plugin.manager.DummyBukkitPluginLoader@5d781772
       server=CraftServer{serverName=Paper,serverVersion=1.21.7-17-b4466ec,minecraftVersion=1.21.7}
       file=plugins/ProtocolLib.jar
-      description=org.bukkit.plugin.PluginDescriptionFile@234c6b95
-      pluginMeta=org.bukkit.plugin.PluginDescriptionFile@234c6b95
+      description=org.bukkit.plugin.PluginDescriptionFile@66ae9458
+      pluginMeta=org.bukkit.plugin.PluginDescriptionFile@66ae9458
       dataFolder=plugins/ProtocolLib
       classLoader=PluginClassLoader{plugin=ProtocolLib v5.3.0, pluginEnabled=false, url=plugins/ProtocolLib.jar}
       naggable=true
       newConfig=YamlConfiguration[path='', root='YamlConfiguration']
       configFile=plugins/ProtocolLib/config.yml
-      logger=com.destroystokyo.paper.utils.PaperPluginLogger@56f193f3
-      lifecycleEventManager=io.papermc.paper.plugin.lifecycle.event.PaperLifecycleEventManager@16a15a7b
+      logger=com.destroystokyo.paper.utils.PaperPluginLogger@2a93bd22
+      lifecycleEventManager=io.papermc.paper.plugin.lifecycle.event.PaperLifecycleEventManager@388df07c
       allowsLifecycleRegistration=true
       isBeingEnabled=false
     ]
@@ -148,226 +144,176 @@ Caused by: java.lang.ClassNotFoundException: com.viaversion.viaversion.protocols
   Server:
     1.21.7-17-b4466ec (MC: 1.21.7)
 
-[15:13:52] [Server thread/INFO]: [NBTAPI] Loading server plugin NBTAPI v2.15.1
-[15:13:52] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21.7! Trying to find NMS support
-[15:13:52] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R5' loaded!
-[15:13:52] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'NBTAPI' to create a bStats instance!
-[15:13:52] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.15-beta-02+9a50ff6
-[15:13:52] [Thread-5/INFO]: [NBTAPI] [NBTAPI] The NBT-API seems to be up-to-date!
-[15:13:53] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@47fe5f6f]
-[15:13:53] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.4.1
-[15:13:53] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
-[15:13:53] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
-[15:13:53] [Server thread/INFO]: [floodgate] Took 919ms to boot Floodgate
-[15:13:53] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.21.2-dev+24-3563b41
-[15:13:53] [Server thread/INFO]: [PlugManX] Loading server plugin PlugManX v2.4.1
-[15:13:53] [Server thread/INFO]: [BetterRevive] Loading server plugin BetterRevive v0.9.1-BETA
-[15:13:53] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.0.9-SNAPSHOT
-[15:13:53] [Server thread/INFO]: [HealthBar] Loading server plugin HealthBar v1.8.1
-[15:13:53] [Server thread/INFO]: [KBloodMoon] Loading server plugin KBloodMoon v1.3
-[15:13:53] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.8.2-SNAPSHOT
-[15:13:54] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[15:13:54] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[15:13:54] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.21.2-dev+24-3563b41
-[15:13:54] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[15:13:54] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.3.0
-[15:13:54] [Server thread/ERROR]: ******************************************************
-[15:13:54] [Server thread/ERROR]: *** ProtocolLib does not support plugin reloaders! ***
-[15:13:54] [Server thread/ERROR]: *** Please use the built-in reload command!        ***
-[15:13:54] [Server thread/ERROR]: ******************************************************
-[15:13:54] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.3.0
-[15:13:54] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.15-beta-02+9a50ff6
-[15:13:54] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[15:13:54] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[15:13:54] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21_6.PaperweightAdapter as the Bukkit adapter
-[15:13:56] [Server thread/INFO]: [PlugManX] Enabling PlugManX v2.4.1
-[15:13:56] [Server thread/WARN]: [PlugManX] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-[15:13:56] [Server thread/WARN]: [PlugManX] It seems like you're running on paper.
-[15:13:56] [Server thread/WARN]: [PlugManX] PlugManX cannot interact with paper-plugins, yet.
-[15:13:56] [Server thread/WARN]: [PlugManX] Also, if you encounter any issues, please join my discord: https://discord.gg/GxEFhVY6ff
-[15:13:56] [Server thread/WARN]: [PlugManX] Or create an issue on GitHub: https://github.com/TheBlackEntity/PlugMan
-[15:13:56] [Server thread/WARN]: [PlugManX] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-[15:13:56] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.9-SNAPSHOT
-[15:13:56] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[15:13:56] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[15:13:56] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[15:13:56] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[15:13:56] [Server thread/INFO]: Preparing level "world"
-[15:13:57] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[15:13:57] [Server thread/INFO]: Preparing spawn area: 0%
-[15:13:58] [Server thread/INFO]: Preparing spawn area: 0%
-[15:13:58] [Server thread/INFO]: Preparing spawn area: 0%
-[15:13:58] [Server thread/INFO]: Time elapsed: 1141 ms
-[15:13:58] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[15:13:58] [Server thread/INFO]: Preparing spawn area: 0%
-[15:13:58] [Server thread/INFO]: Time elapsed: 303 ms
-[15:13:58] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[15:13:58] [Server thread/INFO]: Preparing spawn area: 0%
-[15:13:59] [Server thread/INFO]: Time elapsed: 178 ms
-[15:13:59] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.4.0
-[15:13:59] [Server thread/ERROR]: [ViaVersion] Server version has not been loaded yet, cannot register additional listeners
-[15:13:59] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.2-dev+24-3563b41
-[15:13:59] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[15:13:59] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[15:13:59] [Server thread/INFO]: [Essentials] Starting Essentials ban format conversion
-[15:13:59] [Server thread/INFO]: [Essentials] Found 3 files to convert...
-[15:13:59] [Server thread/INFO]: [Essentials] Converted 0/3
-[15:13:59] [Server thread/INFO]: [Essentials] Ban format update complete.
-[15:13:59] [Server thread/INFO]: [Essentials] Attempting to migrate ignore list to UUIDs
-[15:13:59] [Server thread/INFO]: [Essentials] Done converting ignore list.
-[15:13:59] [Server thread/INFO]: [Essentials] Attempting to migrate legacy userdata keys to Configurate
-[15:13:59] [Server thread/INFO]: [Essentials] Done converting legacy userdata keys to Configurate.
-[15:13:59] [Server thread/INFO]: [Essentials] Done converting mail list.
-[15:13:59] [Server thread/INFO]: [Essentials] #===========================================================================#
-[15:13:59] [Server thread/INFO]: [Essentials]  EssentialsX will now purge any NPC accounts which were incorrectly created.
-[15:13:59] [Server thread/INFO]: [Essentials]  Only NPC accounts with the default starting balance will be deleted. If
-[15:13:59] [Server thread/INFO]: [Essentials]  they turn out to be valid NPC accounts, they will be re-created as needed.
-[15:13:59] [Server thread/INFO]: [Essentials]  Any files deleted here will be backed up to the 
-[15:13:59] [Server thread/INFO]: [Essentials]  "plugins/Essentials/userdata-npc-backup" folder. If you notice any files
-[15:13:59] [Server thread/INFO]: [Essentials]  have been purged incorrectly, you should restore it from the backup and
-[15:13:59] [Server thread/INFO]: [Essentials]  report it to us on GitHub:
-[15:13:59] [Server thread/INFO]: [Essentials]  https://github.com/EssentialsX/Essentials/issues/new/choose
-[15:13:59] [Server thread/INFO]: [Essentials] 
-[15:13:59] [Server thread/INFO]: [Essentials]  NOTE: This is a one-time process and will take several minutes if you have
-[15:13:59] [Server thread/INFO]: [Essentials]  a lot of userdata files! If you interrupt this process, EssentialsX will
-[15:13:59] [Server thread/INFO]: [Essentials]  skip the process until you rename or remove the backup folder.
-[15:13:59] [Server thread/INFO]: [Essentials] #===========================================================================#
-[15:13:59] [Server thread/INFO]: [Essentials] Found ~3 files under "plugins/Essentials/userdata"...
-[15:13:59] [Server thread/INFO]: [Essentials] #===========================================================================#
-[15:13:59] [Server thread/INFO]: [Essentials]  EssentialsX has finished purging NPC accounts.
-[15:13:59] [Server thread/INFO]: [Essentials] 
-[15:13:59] [Server thread/INFO]: [Essentials]  Deleted accounts: 0
-[15:13:59] [Server thread/INFO]: [Essentials]  Total accounts processed: 3
-[15:13:59] [Server thread/INFO]: [Essentials] 
-[15:13:59] [Server thread/INFO]: [Essentials]  Purged accounts have been backed up to
-[15:13:59] [Server thread/INFO]: [Essentials]  "plugins/Essentials/userdata-npc-backup", and can be restored from there
-[15:13:59] [Server thread/INFO]: [Essentials]  if needed. Please report any files which have been incorrectly deleted
-[15:13:59] [Server thread/INFO]: [Essentials]  to us on GitHub:
-[15:13:59] [Server thread/INFO]: [Essentials]  https://github.com/EssentialsX/Essentials/issues/new/choose
-[15:13:59] [Server thread/INFO]: [Essentials] #===========================================================================#
-[15:13:59] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
-[15:13:59] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
-[15:13:59] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
-[15:13:59] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
-[15:13:59] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
-[15:13:59] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
-[15:13:59] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
-[15:13:59] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
-[15:13:59] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
-[15:13:59] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
-[15:13:59] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
-[15:13:59] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
-[15:13:59] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
-[15:13:59] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
-[15:13:59] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
-[15:13:59] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
-[15:13:59] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
-[15:13:59] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
-[15:13:59] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
-[15:13:59] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
-[15:13:59] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
-[15:13:59] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
-[15:14:00] [Server thread/INFO]: [Essentials] Loaded 43880 items from items.json.
-[15:14:00] [Server thread/INFO]: [Essentials] Using locale en
-[15:14:00] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[15:14:00] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[15:14:00] [Server thread/WARN]: [Essentials] Detected supported permissions plugin Other without Vault installed.
-[15:14:00] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
-[15:14:00] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
-[15:14:00] [Server thread/INFO]: [NBTAPI] Enabling NBTAPI v2.15.1
-[15:14:00] [Server thread/INFO]: [NBTAPI] Checking bindings...
-[15:14:00] [Server thread/INFO]: [NBTAPI] All Classes were able to link!
-[15:14:00] [Server thread/INFO]: [NBTAPI] All Methods were able to link!
-[15:14:00] [Server thread/INFO]: [NBTAPI] Running NBT reflection test...
-[15:14:02] [Server thread/INFO]: [NBTAPI] Success! This version of NBT-API is compatible with your server.
-[15:14:02] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.4.1
-[15:14:02] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
-[15:14:03] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.21.2-dev+24-3563b41
-[15:14:03] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
-[15:14:03] [Server thread/INFO]: [BetterRevive] Enabling BetterRevive v0.9.1-BETA
-[15:14:03] [Server thread/INFO]: [BetterRevive] Inventory title with support for more than 32 characters. Skipping..
-[15:14:03] [Server thread/INFO]: [BetterRevive] Hex colors are available! Ready for RGB..
-[15:14:03] [Server thread/INFO]: [BetterRevive] Old constructor for HoverEvent found! Using it..
-[15:14:03] [Server thread/INFO]: [BetterRevive] New sendTitle method found! Using it..
-[15:14:03] [Server thread/INFO]: [BetterRevive] New setUnbreakable method found! Using it..
-[15:14:03] [Server thread/INFO]: [BetterRevive] New isUnbreakable method found! Using it..
-[15:14:03] [Server thread/INFO]:   ___      _   _           ___         _         
-[15:14:03] [Server thread/INFO]:  | _ ) ___| |_| |_ ___ _ _| _ \_____ _(_)_ _____ 
-[15:14:03] [Server thread/INFO]:  | _ \/ -_)  _|  _/ -_) '_|   / -_) V / \ V / -_)
-[15:14:03] [Server thread/INFO]:  |___/\___|\__|\__\___|_| |_|_\___|\_/|_|\_/\___|
-[15:14:03] [Server thread/INFO]: 
-[15:14:03] [Server thread/INFO]:    Running plugin BetterRevive v0.9.1-BETA (v2_0)
-[15:14:03] [Server thread/INFO]:    Server running Paper version 1.21.7-17-b4466ec (MC: 1.21.7)
-[15:14:03] [Server thread/INFO]:    (Implementing API version 1.21.7-17-b4466ec (MC: 1.21.7))
-[15:14:03] [Server thread/INFO]:    (Developed by  AlonsoAliaga - Thanks for using my plugin ❤)
-[15:14:03] [Server thread/INFO]:    If you loved the plugin consider leaving a review and mentioning your server IP in it!
-[15:14:03] [Server thread/INFO]: 
-[15:14:03] [Server thread/INFO]: ==============================================================================================
-[15:14:03] [Server thread/INFO]: [BetterRevive] This is not a error! This is just a warning to keep in mind if you have issues!
-[15:14:03] [Server thread/INFO]: [BetterRevive] You are using a Paper fork (Paper). This plugin was made for Spigot
-[15:14:03] [Server thread/INFO]: [BetterRevive] but was (in most cases) tested with different builds of Paper and Purpur.
-[15:14:03] [Server thread/INFO]: [BetterRevive] Spigot and forks API are really similar and should be compatible, however there are
-[15:14:03] [Server thread/INFO]: [BetterRevive] some cases in which they aren't compatible. If you have issues report them to the
-[15:14:03] [Server thread/INFO]: [BetterRevive] developer instead of reviewing 1 star. Thanks in advanced!
-[15:14:03] [Server thread/INFO]: [BetterRevive] Join us in our official support server on alonsoaliaga.com/discord
-[15:14:03] [Server thread/INFO]: ==============================================================================================
-[15:14:03] [Server thread/INFO]: 
-[15:14:03] [Server thread/INFO]: [BetterRevive] BungeeCord action bar available. Hooking..
-[15:14:03] [Server thread/INFO]: [BetterRevive] ProtocolLib found! Checking..
-[15:14:03] [Server thread/INFO]: [Auto-update] Configuration config.yml is up-to-date!
-[15:14:03] [Server thread/INFO]: [BetterRevive] Factions hook is enabled but couldn't find any supported faction plugin were found. Disabling hook..
-[15:14:03] [Server thread/INFO]: [BetterRevive] Finish off feature has been enabled! Players can finish off other player!
-[15:14:03] [Server thread/INFO]: [BetterRevive] Finish off health: 20 | Finish off damage multiplier: 0.5
-[15:14:03] [Server thread/INFO]: [BetterRevive] DamageCause for finish off is empty! All damage cause will be allowed to finish off players. (Includes DROWING, FIRE, LAVA, etc)
-[15:14:03] [Server thread/INFO]: [BetterRevive] Bleeding mode is 0! Plugin will select the best option for your server!
-[15:14:03] [Server thread/INFO]: [BetterRevive] Server version is v2_0. Players will look like swimming while bleeding! (Mode 2)
-[15:14:03] [Server thread/INFO]: [BetterRevive] Loaded 1 bleeding effects.
-[15:14:03] [Server thread/INFO]: [BetterRevive] Loaded 1 revived effect.
-[15:14:03] [Server thread/INFO]: [HealthBar] Enabling HealthBar v1.8.1
-[15:14:03] [Server thread/INFO]: Looking for compatible plugins...
-[15:14:03] [Server thread/INFO]: [KBloodMoon] Enabling KBloodMoon v1.3
-[15:14:03] [Server thread/INFO]: [KBloodMoon] bloodMoonChance: 20
-[15:14:03] [Server thread/INFO]: [KBloodMoon] §4[BloodMoon] §aPlugin enabled!
-[15:14:03] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.8.2-SNAPSHOT
-[15:14:04] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.2-dev+24-3563b41
-[15:14:04] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
-[15:14:04] [Server thread/INFO]: [spark] Starting background profiler...
-[15:14:05] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[15:14:05] [Server thread/INFO]: [Geyser-Spigot] 
-[15:14:05] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.8.2-b876 (git-master-96bb7d9)
-[15:14:05] [Server thread/INFO]: [Geyser-Spigot] 
-[15:14:05] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[15:14:09] [epollEventLoopGroup-3-2/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
-[15:14:09] [Server thread/INFO]: [Geyser-Spigot] Done (3.433s)! Run /geyser help for help!
-[15:14:09] [Server thread/INFO]: Done preparing level "world" (12.670s)
-[15:14:09] [Server thread/INFO]: Running delayed init tasks
-[15:14:09] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[15:14:09] [Craft Scheduler Thread - 1 - Essentials/INFO]: [Essentials] Fetching version information...
-[15:14:09] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.4.1, you're on: 5.4.0
-[15:14:09] [Server thread/INFO]: Done (38.639s)! For help, type "help"
-[15:14:11] [Craft Scheduler Thread - 1 - BetterRevive/INFO]: [BetterRevive] Checking for updates...
-[15:14:11] [Craft Scheduler Thread - 1 - BetterRevive/INFO]: [BetterRevive] Plugin up-to-date! You have the latest version!
-[15:14:27] [User Authenticator #0/INFO]: UUID of player SKMJuarez is 522bd024-3dea-3608-9808-2631f547025f
-[15:14:27] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [Geyser-Spigot, Essentials, floodgate]
-[15:14:29] [Server thread/INFO]: SKMJuarez joined the game
-[15:14:29] [Server thread/INFO]: SKMJuarez[/127.74.183.169:47681] logged in with entity id 44 at ([world]-872.3000000119209, 80.0, -522.1664097288816)
-[15:15:03] [Server thread/INFO]: Made SKMJuarez a server operator
-[15:15:23] [Server thread/INFO]: SKMJuarez issued server command: /gm 1
-[15:16:24] [Server thread/INFO]: SKMJuarez issued server command: //set minecraft:dirt
-[15:16:38] [Server thread/INFO]: SKMJuarez issued server command: //set 0
-[15:18:53] [Server thread/INFO]: SKMJuarez issued server command: /time set day
-[15:27:22] [Server thread/INFO]: SKMJuarez issued server command: /time set night
-[15:27:53] [Server thread/INFO]: SKMJuarez issued server command: /time set day
-[15:30:22] [Server thread/INFO]: SKMJuarez lost connection: Timed out
-[15:30:22] [Server thread/INFO]: SKMJuarez left the game
-[15:33:06] [Server thread/INFO]: [Not Secure] [Server] a
-[15:34:00] [User Authenticator #1/INFO]: UUID of player SKMJuarez is 522bd024-3dea-3608-9808-2631f547025f
-[15:34:01] [Server thread/INFO]: com.mojang.authlib.GameProfile@7a199b53[id=522bd024-3dea-3608-9808-2631f547025f,name=SKMJuarez,properties={}] lost connection: Disconnected
-[15:34:07] [User Authenticator #1/INFO]: UUID of player SKMJuarez is 522bd024-3dea-3608-9808-2631f547025f
-[15:34:09] [Server thread/INFO]: SKMJuarez joined the game
-[15:34:09] [Server thread/INFO]: SKMJuarez[/127.74.183.169:57857] logged in with entity id 2189 at ([world]-878.5996936975563, 80.9375, -519.4403234219884)
-[15:36:27] [Server thread/INFO]: SKMJuarez issued server command: /
-[15:36:41] [Server thread/INFO]: SKMJuarez issued server command: /gm 0
-[15:36:46] [Server thread/INFO]: SKMJuarez issued server command: /deop SKMJuarez
-[15:36:46] [Server thread/INFO]: [SKMJuarez: Made SKMJuarez no longer a server operator]
-[15:49:33] [Server thread/INFO]: Villager Villager['Fisherman'/2223, uuid='7e49184e-55e6-431c-bd7a-d6ac428ae18c', l='ServerLevel[world]', x=-865.28, y=79.99, z=-517.94, cpos=[-55, -33], tl=18461, v=true] died, message: 'Fisherman tried to swim in lava'
+[19:57:05] [Server thread/INFO]: [NBTAPI] Loading server plugin NBTAPI v2.15.1
+[19:57:05] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21.7! Trying to find NMS support
+[19:57:05] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R5' loaded!
+[19:57:05] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'NBTAPI' to create a bStats instance!
+[19:57:06] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.15-beta-02+9a50ff6
+[19:57:06] [Thread-5/INFO]: [NBTAPI] [NBTAPI] The NBT-API seems to be up-to-date!
+[19:57:06] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@2c871f48]
+[19:57:06] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.4.1
+[19:57:06] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[19:57:07] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[19:57:07] [Server thread/INFO]: [floodgate] Took 970ms to boot Floodgate
+[19:57:07] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.21.2-dev+24-3563b41
+[19:57:07] [Server thread/INFO]: [PlugManX] Loading server plugin PlugManX v2.4.1
+[19:57:07] [Server thread/INFO]: [BetterRevive] Loading server plugin BetterRevive v0.9.1-BETA
+[19:57:07] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.0.9-SNAPSHOT
+[19:57:07] [Server thread/INFO]: [HealthBar] Loading server plugin HealthBar v1.8.1
+[19:57:07] [Server thread/INFO]: [KBloodMoon] Loading server plugin KBloodMoon v1.3
+[19:57:07] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.8.2-SNAPSHOT
+[19:57:08] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[19:57:08] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[19:57:08] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.21.2-dev+24-3563b41
+[19:57:08] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[19:57:08] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.3.0
+[19:57:08] [Server thread/ERROR]: ******************************************************
+[19:57:08] [Server thread/ERROR]: *** ProtocolLib does not support plugin reloaders! ***
+[19:57:08] [Server thread/ERROR]: *** Please use the built-in reload command!        ***
+[19:57:08] [Server thread/ERROR]: ******************************************************
+[19:57:08] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.3.0
+[19:57:08] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.15-beta-02+9a50ff6
+[19:57:08] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[19:57:08] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[19:57:08] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21_6.PaperweightAdapter as the Bukkit adapter
+[19:57:10] [Server thread/INFO]: [PlugManX] Enabling PlugManX v2.4.1
+[19:57:10] [Server thread/WARN]: [PlugManX] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[19:57:10] [Server thread/WARN]: [PlugManX] It seems like you're running on paper.
+[19:57:10] [Server thread/WARN]: [PlugManX] PlugManX cannot interact with paper-plugins, yet.
+[19:57:10] [Server thread/WARN]: [PlugManX] Also, if you encounter any issues, please join my discord: https://discord.gg/GxEFhVY6ff
+[19:57:10] [Server thread/WARN]: [PlugManX] Or create an issue on GitHub: https://github.com/TheBlackEntity/PlugMan
+[19:57:10] [Server thread/WARN]: [PlugManX] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[19:57:10] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.9-SNAPSHOT
+[19:57:10] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19:57:10] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[19:57:10] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[19:57:10] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[19:57:10] [Server thread/INFO]: Preparing level "world"
+[19:57:11] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:57:12] [Server thread/INFO]: Preparing spawn area: 0%
+[19:57:12] [Server thread/INFO]: Preparing spawn area: 0%
+[19:57:12] [Server thread/INFO]: Preparing spawn area: 34%
+[19:57:13] [Server thread/INFO]: Time elapsed: 1323 ms
+[19:57:13] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[19:57:13] [Server thread/INFO]: Preparing spawn area: 0%
+[19:57:13] [Server thread/INFO]: Preparing spawn area: 61%
+[19:57:13] [Server thread/INFO]: Time elapsed: 667 ms
+[19:57:13] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[19:57:13] [Server thread/INFO]: Preparing spawn area: 0%
+[19:57:13] [Server thread/INFO]: Time elapsed: 141 ms
+[19:57:13] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.4.0
+[19:57:14] [Server thread/ERROR]: [ViaVersion] Server version has not been loaded yet, cannot register additional listeners
+[19:57:14] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.2-dev+24-3563b41
+[19:57:14] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[19:57:14] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[19:57:14] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[19:57:14] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[19:57:14] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[19:57:14] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[19:57:14] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[19:57:14] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[19:57:14] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[19:57:14] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[19:57:14] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[19:57:14] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[19:57:14] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[19:57:14] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[19:57:14] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[19:57:14] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[19:57:14] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[19:57:14] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
+[19:57:14] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[19:57:14] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[19:57:14] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[19:57:14] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[19:57:14] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[19:57:14] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[19:57:15] [Server thread/INFO]: [Essentials] Loaded 43880 items from items.json.
+[19:57:15] [Server thread/INFO]: [Essentials] Using locale en
+[19:57:15] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[19:57:15] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[19:57:15] [Server thread/WARN]: [Essentials] Detected supported permissions plugin Other without Vault installed.
+[19:57:15] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[19:57:15] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[19:57:15] [Server thread/INFO]: [NBTAPI] Enabling NBTAPI v2.15.1
+[19:57:15] [Server thread/INFO]: [NBTAPI] Checking bindings...
+[19:57:15] [Server thread/INFO]: [NBTAPI] All Classes were able to link!
+[19:57:15] [Server thread/INFO]: [NBTAPI] All Methods were able to link!
+[19:57:15] [Server thread/INFO]: [NBTAPI] Running NBT reflection test...
+[19:57:17] [Server thread/INFO]: [NBTAPI] Success! This version of NBT-API is compatible with your server.
+[19:57:17] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.4.1
+[19:57:17] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[19:57:17] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.21.2-dev+24-3563b41
+[19:57:17] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[19:57:17] [Server thread/INFO]: [BetterRevive] Enabling BetterRevive v0.9.1-BETA
+[19:57:17] [Server thread/INFO]: [BetterRevive] Inventory title with support for more than 32 characters. Skipping..
+[19:57:17] [Server thread/INFO]: [BetterRevive] Hex colors are available! Ready for RGB..
+[19:57:17] [Server thread/INFO]: [BetterRevive] Old constructor for HoverEvent found! Using it..
+[19:57:17] [Server thread/INFO]: [BetterRevive] New sendTitle method found! Using it..
+[19:57:17] [Server thread/INFO]: [BetterRevive] New setUnbreakable method found! Using it..
+[19:57:17] [Server thread/INFO]: [BetterRevive] New isUnbreakable method found! Using it..
+[19:57:17] [Server thread/INFO]:   ___      _   _           ___         _         
+[19:57:17] [Server thread/INFO]:  | _ ) ___| |_| |_ ___ _ _| _ \_____ _(_)_ _____ 
+[19:57:17] [Server thread/INFO]:  | _ \/ -_)  _|  _/ -_) '_|   / -_) V / \ V / -_)
+[19:57:17] [Server thread/INFO]:  |___/\___|\__|\__\___|_| |_|_\___|\_/|_|\_/\___|
+[19:57:17] [Server thread/INFO]: 
+[19:57:17] [Server thread/INFO]:    Running plugin BetterRevive v0.9.1-BETA (v2_0)
+[19:57:17] [Server thread/INFO]:    Server running Paper version 1.21.7-17-b4466ec (MC: 1.21.7)
+[19:57:17] [Server thread/INFO]:    (Implementing API version 1.21.7-17-b4466ec (MC: 1.21.7))
+[19:57:17] [Server thread/INFO]:    (Developed by  AlonsoAliaga - Thanks for using my plugin ❤)
+[19:57:17] [Server thread/INFO]:    If you loved the plugin consider leaving a review and mentioning your server IP in it!
+[19:57:17] [Server thread/INFO]: 
+[19:57:17] [Server thread/INFO]: ==============================================================================================
+[19:57:17] [Server thread/INFO]: [BetterRevive] This is not a error! This is just a warning to keep in mind if you have issues!
+[19:57:17] [Server thread/INFO]: [BetterRevive] You are using a Paper fork (Paper). This plugin was made for Spigot
+[19:57:17] [Server thread/INFO]: [BetterRevive] but was (in most cases) tested with different builds of Paper and Purpur.
+[19:57:17] [Server thread/INFO]: [BetterRevive] Spigot and forks API are really similar and should be compatible, however there are
+[19:57:17] [Server thread/INFO]: [BetterRevive] some cases in which they aren't compatible. If you have issues report them to the
+[19:57:17] [Server thread/INFO]: [BetterRevive] developer instead of reviewing 1 star. Thanks in advanced!
+[19:57:17] [Server thread/INFO]: [BetterRevive] Join us in our official support server on alonsoaliaga.com/discord
+[19:57:17] [Server thread/INFO]: ==============================================================================================
+[19:57:17] [Server thread/INFO]: 
+[19:57:17] [Server thread/INFO]: [BetterRevive] BungeeCord action bar available. Hooking..
+[19:57:17] [Server thread/INFO]: [BetterRevive] ProtocolLib found! Checking..
+[19:57:17] [Server thread/INFO]: [Auto-update] Configuration config.yml is up-to-date!
+[19:57:17] [Server thread/INFO]: [BetterRevive] Factions hook is enabled but couldn't find any supported faction plugin were found. Disabling hook..
+[19:57:17] [Server thread/INFO]: [BetterRevive] Finish off feature has been enabled! Players can finish off other player!
+[19:57:17] [Server thread/INFO]: [BetterRevive] Finish off health: 20 | Finish off damage multiplier: 0.5
+[19:57:17] [Server thread/INFO]: [BetterRevive] DamageCause for finish off is empty! All damage cause will be allowed to finish off players. (Includes DROWING, FIRE, LAVA, etc)
+[19:57:17] [Server thread/INFO]: [BetterRevive] Bleeding mode is 0! Plugin will select the best option for your server!
+[19:57:17] [Server thread/INFO]: [BetterRevive] Server version is v2_0. Players will look like swimming while bleeding! (Mode 2)
+[19:57:17] [Server thread/INFO]: [BetterRevive] Loaded 1 bleeding effects.
+[19:57:17] [Server thread/INFO]: [BetterRevive] Loaded 1 revived effect.
+[19:57:17] [Server thread/INFO]: [HealthBar] Enabling HealthBar v1.8.1
+[19:57:17] [Server thread/INFO]: Looking for compatible plugins...
+[19:57:17] [Server thread/INFO]: [KBloodMoon] Enabling KBloodMoon v1.3
+[19:57:17] [Server thread/INFO]: [KBloodMoon] bloodMoonChance: 20
+[19:57:17] [Server thread/INFO]: [KBloodMoon] §4[BloodMoon] §aPlugin enabled!
+[19:57:17] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.8.2-SNAPSHOT
+[19:57:18] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.2-dev+24-3563b41
+[19:57:18] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[19:57:18] [Server thread/INFO]: [spark] Starting background profiler...
+[19:57:19] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[19:57:19] [Server thread/INFO]: [Geyser-Spigot] 
+[19:57:19] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.8.2-b876 (git-master-96bb7d9)
+[19:57:19] [Server thread/INFO]: [Geyser-Spigot] 
+[19:57:19] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[19:57:23] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 1143
+[19:57:23] [Server thread/INFO]: [Geyser-Spigot] Done (4.022s)! Run /geyser help for help!
+[19:57:23] [Server thread/INFO]: Done preparing level "world" (13.076s)
+[19:57:23] [Server thread/INFO]: Running delayed init tasks
+[19:57:23] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[19:57:23] [Craft Scheduler Thread - 1 - Essentials/INFO]: [Essentials] Fetching version information...
+[19:57:23] [User Authenticator #0/INFO]: UUID of player SKMJuarez is 522bd024-3dea-3608-9808-2631f547025f
+[19:57:23] [User Authenticator #1/INFO]: UUID of player SKMJuarez is 522bd024-3dea-3608-9808-2631f547025f
+[19:57:23] [Server thread/INFO]: Done (33.249s)! For help, type "help"
+[19:57:24] [Server thread/INFO]: SKMJuarez (/127.74.183.169:40081) lost connection: Disconnected
+[19:57:24] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [Geyser-Spigot, Essentials, floodgate]
+[19:57:24] [Craft Scheduler Thread - 1 - Essentials/WARN]: [Essentials] You're 2 EssentialsX dev build(s) out of date!
+[19:57:24] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.4.1, you're on: 5.4.0
+[19:57:24] [Craft Scheduler Thread - 1 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
+[19:57:25] [Craft Scheduler Thread - 1 - BetterRevive/INFO]: [BetterRevive] Checking for updates...
+[19:57:25] [Craft Scheduler Thread - 1 - BetterRevive/INFO]: [BetterRevive] Plugin up-to-date! You have the latest version!
+[19:57:25] [Server thread/INFO]: SKMJuarez joined the game
+[19:57:25] [Server thread/INFO]: SKMJuarez[/127.74.183.169:47367] logged in with entity id 32 at ([world]-847.8487975389254, 81.5, -511.7439799845914)
+[19:57:26] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 58ec264d-08f9-4dc4-8707-494d06003414, mapped to Sheep['Sheep'/36, uuid='58ec264d-08f9-4dc4-8707-494d06003414', l='ServerLevel[world]', x=-834.33, y=81.00, z=-525.51, cpos=[-53, -33], tl=0, v=true], can't add Sheep['Sheep'/48, uuid='58ec264d-08f9-4dc4-8707-494d06003414', l='ServerLevel[world]', x=-834.49, y=81.00, z=-529.23, cpos=[-53, -34], tl=0, v=false]
