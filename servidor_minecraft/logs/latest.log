@@ -396,3 +396,4 @@ Caused by: java.lang.StringIndexOutOfBoundsException: Range [0, -1) out of bound
 [20:57:23] [Server thread/INFO]: [SKMJuarez: Made SKMJuarez no longer a server operator]
 [20:57:36] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /time set night
 [20:57:36] [Server thread/INFO]: The time was set to 14000 ticks in: world, world_nether, world_the_end.
+[21:10:58] [Server thread/INFO]: Villager Villager['Farmer'/9457, uuid='ff155351-a8a9-4b34-9aad-ff9e8c3e12a8', l='ServerLevel[world]', x=-844.54, y=80.92, z=-512.67, cpos=[-53, -33], tl=20629, v=true] died, message: 'Farmer was slain by Zombie'
