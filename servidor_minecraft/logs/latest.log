@@ -317,3 +317,5 @@ Caused by: java.lang.ClassNotFoundException: com.viaversion.viaversion.protocols
 [19:57:25] [Server thread/INFO]: SKMJuarez joined the game
 [19:57:25] [Server thread/INFO]: SKMJuarez[/127.74.183.169:47367] logged in with entity id 32 at ([world]-847.8487975389254, 81.5, -511.7439799845914)
 [19:57:26] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 58ec264d-08f9-4dc4-8707-494d06003414, mapped to Sheep['Sheep'/36, uuid='58ec264d-08f9-4dc4-8707-494d06003414', l='ServerLevel[world]', x=-834.33, y=81.00, z=-525.51, cpos=[-53, -33], tl=0, v=true], can't add Sheep['Sheep'/48, uuid='58ec264d-08f9-4dc4-8707-494d06003414', l='ServerLevel[world]', x=-834.49, y=81.00, z=-529.23, cpos=[-53, -34], tl=0, v=false]
+[20:07:42] [Server thread/INFO]: [Not Secure] [Server] xd
+[20:08:42] [Server thread/INFO]: Villager Villager['Farmer'/50, uuid='a5e16cb5-904c-414e-8d7a-953436a8164c', l='ServerLevel[world]', x=-865.22, y=79.82, z=-518.30, cpos=[-55, -33], tl=13510, v=true] died, message: 'Farmer tried to swim in lava to escape Zombie'
