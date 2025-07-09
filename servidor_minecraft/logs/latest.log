@@ -370,3 +370,4 @@ Caused by: java.lang.ClassNotFoundException: com.viaversion.viaversion.protocols
 [15:36:41] [Server thread/INFO]: SKMJuarez issued server command: /gm 0
 [15:36:46] [Server thread/INFO]: SKMJuarez issued server command: /deop SKMJuarez
 [15:36:46] [Server thread/INFO]: [SKMJuarez: Made SKMJuarez no longer a server operator]
+[15:49:33] [Server thread/INFO]: Villager Villager['Fisherman'/2223, uuid='7e49184e-55e6-431c-bd7a-d6ac428ae18c', l='ServerLevel[world]', x=-865.28, y=79.99, z=-517.94, cpos=[-55, -33], tl=18461, v=true] died, message: 'Fisherman tried to swim in lava'
