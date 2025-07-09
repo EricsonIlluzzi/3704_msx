@@ -366,3 +366,7 @@ Caused by: java.lang.ClassNotFoundException: com.viaversion.viaversion.protocols
 [15:34:07] [User Authenticator #1/INFO]: UUID of player SKMJuarez is 522bd024-3dea-3608-9808-2631f547025f
 [15:34:09] [Server thread/INFO]: SKMJuarez joined the game
 [15:34:09] [Server thread/INFO]: SKMJuarez[/127.74.183.169:57857] logged in with entity id 2189 at ([world]-878.5996936975563, 80.9375, -519.4403234219884)
+[15:36:27] [Server thread/INFO]: SKMJuarez issued server command: /
+[15:36:41] [Server thread/INFO]: SKMJuarez issued server command: /gm 0
+[15:36:46] [Server thread/INFO]: SKMJuarez issued server command: /deop SKMJuarez
+[15:36:46] [Server thread/INFO]: [SKMJuarez: Made SKMJuarez no longer a server operator]
