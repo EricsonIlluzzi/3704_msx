@@ -394,3 +394,5 @@ Caused by: java.lang.StringIndexOutOfBoundsException: Range [0, -1) out of bound
 [20:57:21] [Server thread/INFO]: SKMJuarez issued server command: /deop sk
 [20:57:23] [Server thread/INFO]: SKMJuarez issued server command: /deop SKMJuarez
 [20:57:23] [Server thread/INFO]: [SKMJuarez: Made SKMJuarez no longer a server operator]
+[20:57:36] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /time set night
+[20:57:36] [Server thread/INFO]: The time was set to 14000 ticks in: world, world_nether, world_the_end.
