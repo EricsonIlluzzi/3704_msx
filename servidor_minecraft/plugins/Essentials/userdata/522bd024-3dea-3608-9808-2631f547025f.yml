@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.74.183.169
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1752006486122
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1752003211634
+  login: 1752074069548
+money: '0'
+last-account-name: SKMJuarez
+logoutlocation:
+  world: 1c95f665-72d7-4563-9219-484a5fef01bb
+  world-name: world
+  x: 218.62567424477058
+  y: 67.0
+  z: -457.34721080857463
+  yaw: 4.492141246795654
+  pitch: 59.24992370605469
+lastlocation:
+  world: 1c95f665-72d7-4563-9219-484a5fef01bb
+  world-name: world
+  x: 0.0
+  y: 85.0
+  z: 0.5583708210650671
+  yaw: 0.0
+  pitch: 0.0
