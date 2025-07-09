@@ -319,3 +319,78 @@ Caused by: java.lang.ClassNotFoundException: com.viaversion.viaversion.protocols
 [19:57:26] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 58ec264d-08f9-4dc4-8707-494d06003414, mapped to Sheep['Sheep'/36, uuid='58ec264d-08f9-4dc4-8707-494d06003414', l='ServerLevel[world]', x=-834.33, y=81.00, z=-525.51, cpos=[-53, -33], tl=0, v=true], can't add Sheep['Sheep'/48, uuid='58ec264d-08f9-4dc4-8707-494d06003414', l='ServerLevel[world]', x=-834.49, y=81.00, z=-529.23, cpos=[-53, -34], tl=0, v=false]
 [20:07:42] [Server thread/INFO]: [Not Secure] [Server] xd
 [20:08:42] [Server thread/INFO]: Villager Villager['Farmer'/50, uuid='a5e16cb5-904c-414e-8d7a-953436a8164c', l='ServerLevel[world]', x=-865.22, y=79.82, z=-518.30, cpos=[-55, -33], tl=13510, v=true] died, message: 'Farmer tried to swim in lava to escape Zombie'
+[20:51:11] [Server thread/INFO]: Villager Villager['Nitwit'/83, uuid='8b2a9e92-72e9-4374-811e-2f3fa90b18ff', l='ServerLevel[world]', x=-826.71, y=79.00, z=-496.56, cpos=[-52, -32], tl=64474, v=true] died, message: 'Nitwit was slain by Zombie'
+[20:51:44] [Server thread/ERROR]: Could not pass event EntityDamageByEntityEvent to BetterRevive v0.9.1-BETA
+java.lang.ExceptionInInitializerError: null
+	at BetterRevive-v0.9.1-BETA.jar/com.alonsoaliaga.betterrevive.listeners.DamageListener.onDamaged(DamageListener.java:217) ~[BetterRevive-v0.9.1-BETA.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21.7-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:71) ~[paper-api-1.21.7-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.7.jar:1.21.7-17-b4466ec]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.7.jar:1.21.7-17-b4466ec]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21.7-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.event.Event.callEvent(Event.java:46) ~[paper-api-1.21.7-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:1073) ~[paper-1.21.7.jar:1.21.7-17-b4466ec]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:1063) ~[paper-1.21.7.jar:1.21.7-17-b4466ec]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:993) ~[paper-1.21.7.jar:1.21.7-17-b4466ec]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:954) ~[paper-1.21.7.jar:1.21.7-17-b4466ec]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.handleLivingEntityDamageEvent(CraftEventFactory.java:1117) ~[paper-1.21.7.jar:1.21.7-17-b4466ec]
+	at net.minecraft.world.entity.LivingEntity.handleEntityDamage(LivingEntity.java:2386) ~[paper-1.21.7.jar:1.21.7-17-b4466ec]
+	at net.minecraft.world.entity.LivingEntity.hurtServer(LivingEntity.java:1466) ~[paper-1.21.7.jar:1.21.7-17-b4466ec]
+	at net.minecraft.world.entity.player.Player.hurtServer(Player.java:908) ~[paper-1.21.7.jar:1.21.7-17-b4466ec]
+	at net.minecraft.server.level.ServerPlayer.hurtServer(ServerPlayer.java:1191) ~[paper-1.21.7.jar:1.21.7-17-b4466ec]
+	at net.minecraft.world.entity.Mob.doHurtTarget(Mob.java:1509) ~[paper-1.21.7.jar:1.21.7-17-b4466ec]
+	at net.minecraft.world.entity.monster.Zombie.doHurtTarget(Zombie.java:385) ~[paper-1.21.7.jar:1.21.7-17-b4466ec]
+	at net.minecraft.world.entity.ai.goal.MeleeAttackGoal.checkAndPerformAttack(MeleeAttackGoal.java:129) ~[paper-1.21.7.jar:1.21.7-17-b4466ec]
+	at net.minecraft.world.entity.ai.goal.MeleeAttackGoal.tick(MeleeAttackGoal.java:121) ~[paper-1.21.7.jar:1.21.7-17-b4466ec]
+	at net.minecraft.world.entity.ai.goal.ZombieAttackGoal.tick(ZombieAttackGoal.java:28) ~[paper-1.21.7.jar:1.21.7-17-b4466ec]
+	at net.minecraft.world.entity.ai.goal.WrappedGoal.tick(WrappedGoal.java:63) ~[paper-1.21.7.jar:1.21.7-17-b4466ec]
+	at net.minecraft.world.entity.ai.goal.GoalSelector.tickRunningGoals(GoalSelector.java:126) ~[paper-1.21.7.jar:1.21.7-17-b4466ec]
+	at net.minecraft.world.entity.ai.goal.GoalSelector.tick(GoalSelector.java:117) ~[paper-1.21.7.jar:1.21.7-17-b4466ec]
+	at net.minecraft.world.entity.Mob.serverAiStep(Mob.java:761) ~[paper-1.21.7.jar:1.21.7-17-b4466ec]
+	at net.minecraft.world.entity.LivingEntity.aiStep(LivingEntity.java:3489) ~[paper-1.21.7.jar:1.21.7-17-b4466ec]
+	at net.minecraft.world.entity.Mob.aiStep(Mob.java:504) ~[paper-1.21.7.jar:1.21.7-17-b4466ec]
+	at net.minecraft.world.entity.monster.Monster.aiStep(Monster.java:45) ~[paper-1.21.7.jar:1.21.7-17-b4466ec]
+	at net.minecraft.world.entity.monster.Zombie.aiStep(Zombie.java:259) ~[paper-1.21.7.jar:1.21.7-17-b4466ec]
+	at net.minecraft.world.entity.LivingEntity.tick(LivingEntity.java:3267) ~[paper-1.21.7.jar:1.21.7-17-b4466ec]
+	at net.minecraft.world.entity.Mob.tick(Mob.java:381) ~[paper-1.21.7.jar:1.21.7-17-b4466ec]
+	at net.minecraft.world.entity.monster.Zombie.tick(Zombie.java:231) ~[paper-1.21.7.jar:1.21.7-17-b4466ec]
+	at net.minecraft.server.level.ServerLevel.tickNonPassenger(ServerLevel.java:1277) ~[paper-1.21.7.jar:1.21.7-17-b4466ec]
+	at net.minecraft.world.level.Level.guardEntityTick(Level.java:1483) ~[paper-1.21.7.jar:1.21.7-17-b4466ec]
+	at net.minecraft.server.level.ServerLevel.lambda$tick$4(ServerLevel.java:811) ~[paper-1.21.7.jar:1.21.7-17-b4466ec]
+	at net.minecraft.world.level.entity.EntityTickList.forEach(EntityTickList.java:39) ~[paper-1.21.7.jar:1.21.7-17-b4466ec]
+	at net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:793) ~[paper-1.21.7.jar:1.21.7-17-b4466ec]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1724) ~[paper-1.21.7.jar:1.21.7-17-b4466ec]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1530) ~[paper-1.21.7.jar:1.21.7-17-b4466ec]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1252) ~[paper-1.21.7.jar:1.21.7-17-b4466ec]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.7.jar:1.21.7-17-b4466ec]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.StringIndexOutOfBoundsException: Range [0, -1) out of bounds for length 11
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:55) ~[?:?]
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:52) ~[?:?]
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:213) ~[?:?]
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:210) ~[?:?]
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:98) ~[?:?]
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckFromToIndex(Preconditions.java:112) ~[?:?]
+	at java.base/jdk.internal.util.Preconditions.checkFromToIndex(Preconditions.java:349) ~[?:?]
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:4865) ~[?:?]
+	at java.base/java.lang.String.substring(String.java:2834) ~[?:?]
+	at BetterRevive-v0.9.1-BETA.jar/com.alonsoaliaga.betterrevive.utils.CraftUtils.<clinit>(CraftUtils.java:23) ~[BetterRevive-v0.9.1-BETA.jar:?]
+	... 42 more
+[20:51:44] [Server thread/INFO]: SKMJuarez was slain by Zombie
+[20:51:48] [Server thread/INFO]: Villager Villager['Shepherd'/37, uuid='8cdb0521-5f0d-4916-8f1a-06406b679991', l='ServerLevel[world]', x=-847.30, y=82.00, z=-538.80, cpos=[-53, -34], tl=65237, v=true] died, message: 'Shepherd was slain by Zombie'
+[20:53:01] [Server thread/INFO]: Made SKMJuarez a server operator
+[20:53:17] [Server thread/INFO]: SKMJuarez issued server command: /tp 847.30 82.00 538.80
+[20:53:20] [Server thread/INFO]: SKMJuarez issued server command: /gm 1
+[20:53:45] [Server thread/INFO]: SKMJuarez issued server command: /tp -847.30 82.00 -538.80
+[20:53:52] [Server thread/INFO]: Named entity IronGolem['█████▌    '/9440, uuid='9dc374e4-b4d7-498c-8128-092870bc0224', l='ServerLevel[world]', x=-865.47, y=79.00, z=-518.53, cpos=[-55, -33], tl=121, v=true] died: █████▌     tried to swim in lava
+[20:54:04] [Server thread/INFO]: SKMJuarez issued server command: /gm 0
+[20:54:30] [Server thread/INFO]: SKMJuarez issued server command: /gm 1
+[20:56:01] [Server thread/INFO]: Villager Villager['Fisherman'/9439, uuid='f3f78258-518c-4599-8756-1bb247ffe4da', l='ServerLevel[world]', x=-849.50, y=81.00, z=-532.50, cpos=[-54, -34], tl=2691, v=true] died, message: 'Fisherman was slain by SKMJuarez'
+[20:56:13] [Server thread/INFO]: Villager Villager['Fisherman'/9438, uuid='7c89b485-d83d-45a5-8323-1900c0cfaa2d', l='ServerLevel[world]', x=-841.70, y=80.75, z=-540.51, cpos=[-53, -34], tl=2940, v=true] died, message: 'Fisherman was slain by SKMJuarez'
+[20:56:24] [Server thread/INFO]: Villager Villager['Villager'/9924, uuid='961b2576-117f-479f-b027-c4667d17d69d', l='ServerLevel[world]', x=-871.74, y=81.56, z=-519.64, cpos=[-55, -33], tl=754, v=true] died, message: 'Villager was slain by SKMJuarez'
+[20:56:55] [Server thread/INFO]: SKMJuarez issued server command: /gm 0
+[20:57:10] [Server thread/INFO]: SKMJuarez issued server command: /gm 1
+[20:57:18] [Server thread/INFO]: SKMJuarez issued server command: /gm 0
+[20:57:21] [Server thread/INFO]: SKMJuarez issued server command: /deop sk
+[20:57:23] [Server thread/INFO]: SKMJuarez issued server command: /deop SKMJuarez
+[20:57:23] [Server thread/INFO]: [SKMJuarez: Made SKMJuarez no longer a server operator]
