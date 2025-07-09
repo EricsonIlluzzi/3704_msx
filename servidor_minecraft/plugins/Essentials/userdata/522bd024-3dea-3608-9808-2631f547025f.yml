@@ -16,18 +16,18 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1752003211634
-  login: 1752074069548
+  logout: 1752075022884
+  login: 1752075249233
 money: '0'
 last-account-name: SKMJuarez
 logoutlocation:
   world: 1c95f665-72d7-4563-9219-484a5fef01bb
   world-name: world
-  x: 218.62567424477058
-  y: 67.0
-  z: -457.34721080857463
-  yaw: 4.492141246795654
-  pitch: 59.24992370605469
+  x: -878.5996936975563
+  y: 80.9375
+  z: -519.4403234219884
+  yaw: -1.95068359375
+  pitch: 45.59987258911133
 lastlocation:
   world: 1c95f665-72d7-4563-9219-484a5fef01bb
   world-name: world
