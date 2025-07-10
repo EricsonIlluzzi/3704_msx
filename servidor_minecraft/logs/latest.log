@@ -316,3 +316,7 @@ Caused by: java.lang.ClassNotFoundException: com.viaversion.viaversion.protocols
 [21:49:42] [Server thread/INFO]: Set game mode creative for SKMJuarez.
 [21:49:54] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /gm 0 SKMJuarez
 [21:49:54] [Server thread/INFO]: Set game mode survival for SKMJuarez.
+[21:56:59] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /gm 1 SKMJuarez
+[21:56:59] [Server thread/INFO]: Set game mode creative for SKMJuarez.
+[21:57:14] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /gm 0 SKMJuarez
+[21:57:14] [Server thread/INFO]: Set game mode survival for SKMJuarez.
