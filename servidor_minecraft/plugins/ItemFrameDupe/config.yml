@@ -1,0 +1,4 @@
+dupe-chance: 25.0 # Porcentaje de probabilidad de duplicar
+use-glow-only: true # Solo marcos iluminados (true) o todos (false)
+cooldown-seconds: 0 # Enfriamiento por jugador en segundos
+give-to-inventory: true # Si es true, va al inventario. Si no, se dropea
